@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: dept-dev
-        image: 887870046594.dkr.ecr.us-east-2.amazonaws.com/devecr:number
+        image: public.ecr.aws/h3u1y5t3/ecr:number
         ports:
         - containerPort: 80
